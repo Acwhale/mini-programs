@@ -1,0 +1,9 @@
+<!--pages/address/address.wxml-->
+<view style="margin-top:10px">
+  <button size="default" type="primary" catchtap="onChooseTap">选择收获地址</button>
+  <button style="margin-top:10px" size="default" type="primary" catchtap="onCheckSession">检查登录状态</button>
+  <button style="margin-top:10px" size="default" type="primary" catchtap="onOpensetting">用户授权</button>
+  <button style="margin-top:10px" size="default" type="primary" catchtap="onStartRecord">录音</button>
+  <button style="margin-top:10px" size="default" type="primary" catchtap="ONshowShareMenu">设置分享</button>
+  <button style="margin-top:10px" size="default" type="primary" catchtap="ONhideShareMenu">取消分享</button>
+</view>

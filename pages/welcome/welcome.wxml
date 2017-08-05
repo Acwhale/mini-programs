@@ -1,0 +1,18 @@
+<view class="container">
+  <image class="user-head" src="{{userInfo.avatarUrl}}"></image>
+
+  <text class="user-name">Hello,{{userInfo.nickName}}</text>
+  
+  <view class="moto-container" bindtap="onTap"> 
+
+    <text class="moto">开启小程序之旅</text>
+
+  </view>
+
+  <view class="cache-container" bindtap="onClearTap"> 
+
+    <text class="moto">清除缓存</text>
+
+  </view>
+
+</view>
